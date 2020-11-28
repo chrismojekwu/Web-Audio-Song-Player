@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    transition: 0.5s ease-in;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.container > * {
+    width: 60%;
+    margin: auto;
+}
+.viz {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.controls {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: whitesmoke;
+}
+.play {
+    line-height: 30px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 30%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 6px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
