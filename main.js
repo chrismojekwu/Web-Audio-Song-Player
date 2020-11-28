@@ -91,5 +91,3 @@ function draw() {
 
 draw();
 track.connect(gainNode).connect(analyser).connect(audioContext.destination);
-
-/// Chris Mojekwu 2020
